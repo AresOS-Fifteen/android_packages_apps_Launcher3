@@ -167,7 +167,8 @@ android_library {
         "com.android.window.flags.window-aconfig-java",
         "libGoogleFeed",
         "SettingsLib",
-        "org.lineageos.platform"
+        "org.lineageos.platform",
+        "bcsmartspace-google",
     ],
     manifest: "AndroidManifest-common.xml",
     sdk_version: "current",
