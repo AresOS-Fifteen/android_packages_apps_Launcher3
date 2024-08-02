@@ -64,6 +64,8 @@
     <!-- Floating window -->
     <uses-permission android:name="com.crdroid.permission.START_FREEFORM" />
 
+    <uses-permission android:name="android.permission.ACCESS_CONTEXTUAL_SEARCH"/>
+
     <permission android:name="com.google.android.apps.nexuslauncher.permission.QSB" android:protectionLevel="signatureOrSystem"/>
     <uses-permission android:name="com.google.android.apps.nexuslauncher.permission.QSB"/>
 
