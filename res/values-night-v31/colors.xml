@@ -91,8 +91,8 @@
     <color name="material_color_secondary">@android:color/system_accent2_200</color>
     <color name="material_color_tertiary">@android:color/system_accent3_200</color>
 
-    <color name="qsb_primary">@android:color/system_accent2_100</color>
-    <color name="qsb_secondary">@android:color/system_accent2_100</color>
-    <color name="qsb_tertiary">@android:color/system_accent2_100</color> 
-    <color name="qsb_quaternary">@android:color/system_accent2_100</color>
+    <color name="qsb_primary">@android:color/system_accent1_50</color>
+    <color name="qsb_secondary">@android:color/system_accent1_50</color>
+    <color name="qsb_tertiary">@android:color/system_accent1_50</color> 
+    <color name="qsb_quaternary">@android:color/system_accent1_50</color>
 </resources>
