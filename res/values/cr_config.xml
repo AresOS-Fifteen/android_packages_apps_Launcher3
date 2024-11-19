@@ -40,9 +40,6 @@
 
     <!-- Icon pack -->
     <string name="icon_pack_settings_class" translatable="false">com.android.launcher3.icons.pack.IconPackSettingsFragment</string>
-
-    <!-- Quickspace -->
-    <item type="id" name="reserved_container_workspace" />
     
     <!-- Themed Icon pack -->
     <string name="themed_icon_pack_settings_class" translatable="false">com.android.launcher3.icons.pack.ThemeIconsSettingsFragment</string>
