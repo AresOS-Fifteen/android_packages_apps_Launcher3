@@ -75,7 +75,6 @@ public class BackgroundAppState extends OverviewState {
         return super.getVisibleElements(launcher)
                 & ~OVERVIEW_ACTIONS
                 & ~CLEAR_ALL_BUTTON
-                & ~MEMINFO
                 & ~VERTICAL_SWIPE_INDICATOR;
     }
 
