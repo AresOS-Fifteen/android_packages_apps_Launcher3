@@ -203,8 +203,8 @@ public class ImageActionUtils {
             ClipData clipdata = new ClipData(new ClipDescription("content", new String[]{"image/png"}),
                                              new ClipData.Item(uri));
             intent.setAction(Intent.ACTION_SEND)
-                    .setComponent(new ComponentName("com.google.android.googlequicksearchbox",
-                            "com.google.android.apps.search.lens.LensShareEntryPointActivity"))
+                    .setComponent(new ComponentName("com.google.android.cts",
+                            "com.google.android.cts.ui.activity.MainActivity"))
                     .addFlags(FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK)
                     .addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS)
                     .addFlags(FLAG_GRANT_READ_URI_PERMISSION)
